@@ -6,7 +6,7 @@ function CoursesPage() {
 
 	useEffect(() => {
 		getCourses().then(_courses => setCourses(_courses));
-	});
+	}, []);
 
 	return (
 		<>
