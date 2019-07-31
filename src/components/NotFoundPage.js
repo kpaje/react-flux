@@ -4,11 +4,10 @@ import { Link } from "react-router-dom";
 function HomePage() {
 	return (
 		<div className="jumbotron">
-			<h1>Pluralsight Administration</h1>
-			<p>React, Flux, and React Router</p>
-			<Link to="about" className="btn btn-primary">
-				About
-			</Link>
+			<h1>Page Not Found</h1>
+			<p>
+				<Link to="/">Back to Home</Link>
+			</p>
 		</div>
 	);
 }
